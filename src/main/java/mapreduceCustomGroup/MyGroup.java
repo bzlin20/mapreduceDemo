@@ -19,7 +19,7 @@ public class MyGroup  extends WritableComparator {
 
     @Override
     public int compare(WritableComparable a, WritableComparable b) {
-        //定义分组条件
+        //定义分组条件   同一个班级为一组
         StudentBean sb1 = (StudentBean) a;
         StudentBean sb2 = (StudentBean) b;
         return sb1.getCourse().compareTo(sb2.getCourse());
