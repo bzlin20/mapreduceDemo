@@ -13,6 +13,8 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import java.io.IOException;
 /*
 * 学生成绩排序  map key自定义类
+*
+* 自定义排序一般很少单独使用，一版都是和自定义的分组一起使用
 * */
 public class StudentMrSort {
     public static class MyMapper extends Mapper<LongWritable, Text,StudentBean,Text>{

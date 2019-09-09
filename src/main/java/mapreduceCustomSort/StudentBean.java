@@ -6,12 +6,16 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
+/*
+* 自定义排序类
+* */
+
 //首先实现WritableComparable类
 public class StudentBean  implements WritableComparable<StudentBean> {
 
+   private  String  name;
     private String  course;
-    private String  name;
-    private Double avg;
+   private  Double avg;
 
     public String getCourse(){
         return course;
