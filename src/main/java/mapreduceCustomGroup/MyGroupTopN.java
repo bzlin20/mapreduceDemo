@@ -18,6 +18,7 @@ import java.io.IOException;
 /*
 * 需求：根据学生的班级进行分组，求每个班级成绩最高的top3
 * 相当于执行 select * from  (select  姓名，年龄，row_number() over(partition by 班级 order by 分数 desc) rk from table ) t  where rk<=3
+*
 * */
 public class MyGroupTopN {
     public static class MyMapper extends Mapper<LongWritable, Text, StudentBean, NullWritable>{

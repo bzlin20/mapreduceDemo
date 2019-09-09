@@ -5,7 +5,7 @@ import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;
 
 /*
-* 自定义分组
+* 自定义分组：
 *    继承 WritableComparator类
 *    重写compare方法
 * */
