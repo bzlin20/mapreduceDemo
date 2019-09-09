@@ -1,0 +1,92 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AbstractValueInTrait" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ActorMutableStateInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AutoTupling" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="BindingAnnotationWithoutInject" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="BlockingMethodInNonBlockingContext" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="BoundFieldAssignment" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CallingSubscribeInNonBlockingScope" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CheckNodeTest" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="ComparingLength" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ConcealedApplyCall" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ConflictingAnnotations" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="DeclarationType" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="DuplicateMnemonic" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="FormSpellChecking" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="HamlNestedTagContent" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="HardwiredNamespacePrefix" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="HoconIncludeResolution" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="I18nForm" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="ImplicitTypeConversion" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="BITS" value="1720" />
+      <option name="FLAG_EXPLICIT_CONVERSION" value="true" />
+      <option name="IGNORE_NODESET_TO_BOOLEAN_VIA_STRING" value="true" />
+    </inspection_tool>
+    <inspection_tool class="IndexZeroUsage" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="InterceptionAnnotationWithoutRuntimeRetention" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="InvalidImplementedBy" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="InvalidPropertyKeyForm" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="InvalidProvidedBy" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="InvalidRequestParameters" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JavaFxColorRgb" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JavaFxDefaultTag" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JavaFxEventHandler" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JavaFxRedundantPropertyValue" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JavaFxResourcePropertyValue" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JavaFxUnresolvedFxIdReference" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JavaFxUnresolvedStyleClassReference" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JavaFxUnusedImports" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="LegacyStringFormatting" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="LossyEncoding" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MapGetOrElse" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="MarkdownUnresolvedFileReference" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MissingMnemonic" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MultipleBindingAnnotations" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MultipleInjectedConstructorsForClass" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="MultipleRepositoryUrls" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="NestedStatefulMonads" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="NoButtonGroup" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="NoLabelFor" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="NoScrollPane" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="NoTailRecursionAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="NonAsciiCharacters" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="OneButtonGroup" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="Play2BadFileNameInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="Play2RoutingActionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="Play2RoutingUrlClashInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="Play2UnresolvedResource" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PlayCustomTagNameInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PlayPropertyInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PointlessBinding" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PostfixMethodCall" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PublisherImplementation" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RedundantScopeBinding" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RedundantToBinding" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RedundantToProviderBinding" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RedundantTypeConversion" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="CHECK_ANY" value="false" />
+    </inspection_tool>
+    <inspection_tool class="RelativeImport" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SbtReplaceProjectWithProjectIn" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="ScalaBundledInsRunner" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ScheduledForRemoval" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SessionScopedInjectsRequestScoped" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SideEffectsInMonadicTransformation" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SingletonInjectsScoped" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SubscriberImplementation" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TelReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="UnassignedFluxMonoInstance" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="UnfinishedStepVerifier" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="UninstantiableBinding" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="UninstantiableImplementedByClass" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="UninstantiableProvidedByClass" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="UnitMethodDeclaredWithTypeAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="UnitMethodDefinedLikeFunction" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="UnitMethodDefinedLikeProcedure" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="UnitMethodDefinedWithEqualsSign" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryStaticInjection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="UnstableApiUsage" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>

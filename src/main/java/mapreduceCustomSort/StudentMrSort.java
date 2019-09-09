@@ -21,7 +21,7 @@ public class StudentMrSort {
         @Override
         protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
               String [] split = value.toString().split(",");
-            //  95002,刘晨,女,19,IS
+            //数据格式  95002,刘晨,女,19,IS
               StudentBean sb = new StudentBean(split[4],split[1],Integer.parseInt(split[3]));
               context.write(sb,new Text(split[0]+"\t"+split[2]));
         }
