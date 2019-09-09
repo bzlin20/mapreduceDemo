@@ -71,15 +71,7 @@ public class StudentBean  implements WritableComparable<StudentBean> {
             if(temp>0){
                 return 1;
             }else if (temp == 0){
-                //最后比较姓名，按照拼音先后顺序
-               int tname=this.getName().compareTo(sb.getName());
-                if (tname > 0){
-                    return 1 ;
-                } else if(tname == 0){
                     return 0;
-                }else{
-                    return -1;
-                }
             }else{
                 return -1;
             }
