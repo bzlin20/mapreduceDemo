@@ -8,6 +8,10 @@ import java.io.IOException;
 
 /*
 * 自定义排序类  StudentBean
+* 步骤：
+*    1、实现WritableComparable类
+*    2、重写 write和 readFields方法
+*    3、重写compareTo  (写的是排序规则)
 * */
 
 //首先实现WritableComparable类
